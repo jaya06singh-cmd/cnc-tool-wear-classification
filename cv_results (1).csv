@@ -1,0 +1,19 @@
+Feature set,Model,Accuracy,Recall (worn),Recall (unworn),Balanced accuracy
+All features,Logistic Regression,0.525,0.59,0.444,0.517
+All features,KNN,0.492,0.605,0.35,0.478
+All features,Decision Tree,0.672,0.76,0.562,0.661
+All features,Random Forest,0.572,0.675,0.444,0.559
+All features,SVM,0.367,0.36,0.375,0.368
+All features,Gradient Boosting,0.631,0.73,0.506,0.618
+Without position,Logistic Regression,0.531,0.59,0.456,0.523
+Without position,KNN,0.508,0.61,0.381,0.496
+Without position,Decision Tree,0.508,0.565,0.438,0.501
+Without position,Random Forest,0.514,0.57,0.444,0.507
+Without position,SVM,0.464,0.4,0.544,0.472
+Without position,Gradient Boosting,0.539,0.59,0.475,0.532
+Current/Power/Voltage only,Logistic Regression,0.439,0.465,0.406,0.436
+Current/Power/Voltage only,KNN,0.517,0.625,0.381,0.503
+Current/Power/Voltage only,Decision Tree,0.508,0.6,0.394,0.497
+Current/Power/Voltage only,Random Forest,0.55,0.59,0.5,0.545
+Current/Power/Voltage only,SVM,0.478,0.4,0.575,0.488
+Current/Power/Voltage only,Gradient Boosting,0.533,0.615,0.431,0.523
